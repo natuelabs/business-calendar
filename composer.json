@@ -1,0 +1,24 @@
+{
+    "name": "natuelabs/business-calendar",
+    "description": "A simple library to manage business calendar",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edson Lima",
+            "email": "dddwebdeveloper@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": { "Natuelabs\\BusinessCalendar\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Natuelabs\\BusinessCalendar\\Tests\\" : "tests/Unit/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "require": {
+        "johngrogg/ics-parser": "^2.1"
+    }
+}
